@@ -1,0 +1,29 @@
+{
+  "env": {
+    "client": {
+      "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react",
+        [
+          "@babel/preset-typescript",
+          {
+            "isTSX": true,
+            "allExtensions": true
+          }
+        ]
+      ]
+    },
+    "server": {
+      "presets": [
+        "@babel/preset-react",
+        [
+          "@babel/preset-typescript",
+          {
+            "isTSX": true,
+            "allExtensions": true
+          }
+        ]
+      ]
+    }
+  }
+}
